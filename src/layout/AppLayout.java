@@ -11,7 +11,9 @@ public class AppLayout extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		
 		
+		Scene principal = new Scene(new TesteAncorPane(), 800, 600);
 		
+		primaryStage.setScene(principal);
 		primaryStage.setTitle("Gerenciadores de layout");
 		primaryStage.show();
 	}
